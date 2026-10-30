@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Avinash Bharti — IIT Indore</title>
-  <meta name="description" content="Avinash Bharti — PhD Scholar at IIT Indore. Research in Multimodal Transformers, Computer Vision, and Precision Agriculture.">
+  <meta name="description" content="Avinash Bharti — PhD Scholar at IIT Indore. Multimodal deep learning: transformers that fuse gene expression with images, survival analysis and rigorous evaluation.">
   <meta name="author" content="Avinash Bharti">
 
   <meta property="og:title" content="Avinash Bharti — IIT Indore">
-  <meta property="og:description" content="PhD Scholar — Multimodal Transformers for predictive analysis in complex vision systems.">
+  <meta property="og:description" content="PhD Scholar — multimodal deep learning for biomedical data.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://avinashkamalbharti.github.io">
 
@@ -23,7 +23,8 @@
     "sameAs": [
       "https://www.linkedin.com/in/avinashkamalbharti/",
       "https://scholar.google.com/citations?user=ftnB0ccAAAAJ",
-      "https://orcid.org/0000-0003-2645-7626"
+      "https://orcid.org/0000-0003-2645-7626",
+      "https://github.com/avinashkamalbharti"
     ]
   }
   </script>
@@ -58,13 +59,13 @@
     <p class="hero-subtitle">Computer Science &amp; Engineering · Supervised by <strong>Prof. Aruna Tiwari</strong> · AgriHub CoE</p>
 
     <div class="hero-meta">
-      <div class="hero-meta-item"><span class="label">GATE CSE</span> AIR 2434 (98.6%ile)</div>
-      <div class="hero-meta-item"><span class="label">UGC NET</span> 99.9 Percentile</div>
-      <div class="hero-meta-item"><span class="label">IIITH PGEE</span> AIR 303</div>
+      <div class="hero-meta-item"><span class="label">GATE CSE 2025</span> AIR 2,434 (top 1.4%)</div>
+      <div class="hero-meta-item"><span class="label">UGC-NET</span> 188/300</div>
+      <div class="hero-meta-item"><span class="label">IIITH PGEE 2025</span> AIR 303</div>
     </div>
 
     <div class="hero-links">
-      <a href="mailto:phd2501101010@iiti.ac.in" class="hero-link">
+      <a href="mailto:avinashkamalbharti@gmail.com" class="hero-link">
         <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
         Email
       </a>
@@ -89,7 +90,7 @@
   <div class="section-label">About</div>
   <h2 class="section-title">About Me</h2>
   <div class="section-divider"></div>
-  <p class="about-text">I am a computer science researcher with a proven track record of academic excellence — ranked in the <strong>top 1.4% nationally in GATE CSE</strong> and the <strong>top 1% in UGC NET</strong>. Currently pursuing doctoral research on multimodal transformer architectures for predictive analysis in real-world vision systems, I bring strong theoretical foundations and hands-on research experience in cross-modal fusion, survival modelling, and large-scale data-driven problem solving. I am passionate about interdisciplinary collaboration and advancing research that creates meaningful, global impact.</p>
+  <p class="about-text">I am a PhD scholar in Computer Science and Engineering at IIT Indore. I design transformer models that fuse RNA-seq gene expression with images: pathway-level gene tokens query image patches through cross-attention, so the biological prior shapes what the model attends to. I also work on rigorous evaluation of multimodal models. My research direction is <strong>human biomedical AI</strong>: integrating molecular profiles with imaging and clinical data, and foundation models for single-cell and multi-omics analysis. Before the PhD, I completed an M.Tech with a thesis on machine learning for diabetes risk prediction, worked as a software developer, and have taught computer science for seven years.</p>
 </section>
 
 <!-- RESEARCH -->
@@ -100,44 +101,43 @@
 
   <div class="research-card">
     <div class="card-label">Research Focus</div>
-    <div class="card-title">Multimodal Transformer Architectures for Cross-Modal Fusion and Predictive Analysis in Complex Vision Systems</div>
+    <div class="card-title">Pathway-guided multimodal transformers for gene expression and imaging</div>
   </div>
 
-  <p class="research-desc">Traditional crop monitoring relies on single-modality visual cues which frequently fail to detect diseases in their latent stages. This research leverages <strong>Multimodal Transformers</strong> to fuse high-resolution imagery, genomic sequence data, hyperspectral data, and environmental sensor metadata — capturing complex temporal and spatial dependencies for both <strong>latent disease detection</strong> and <strong>survival analysis</strong>.</p>
+  <p class="research-desc">My doctoral project fuses RNA-seq profiles with images to detect plant disease before visible symptoms appear. Pathway-level gene tokens query image patches through <strong>cross-attention</strong>, aligned with a CLIP-style contrastive objective; the evaluation design includes a reversed-attention ablation and unimodal, concatenation and co-attention baselines. The same design carries over to <strong>human biomedical data</strong>, which is where my research is heading.</p>
 
   <div class="research-grid">
     <div class="area-card">
       <div class="icon">🧬</div>
-      <h4>Multimodal Data Fusion</h4>
-      <p>Fusing RGB imagery, genomic sequences, hyperspectral data, and environmental sensors using transformer-based architectures.</p>
+      <h4>Multimodal Fusion</h4>
+      <p>Cross-attention between pathway-level gene tokens and image patches, with contrastive alignment of modalities that have no ground-truth pairing.</p>
     </div>
     <div class="area-card">
       <div class="icon">🔬</div>
-      <h4>Latent Disease Detection</h4>
-      <p>Detecting crop diseases before visible symptoms appear using genomic markers and physiological stress indicators.</p>
+      <h4>Testable Interpretability</h4>
+      <p>Attention maps that show where a pathway's signal appears in an image, checked through ablations rather than assumed.</p>
     </div>
     <div class="area-card">
       <div class="icon">📈</div>
       <h4>Survival Analysis</h4>
-      <p>Predicting long-term crop survival probability under environmental stressors using temporal multimodal models.</p>
+      <p>Survival models that combine gene expression and whole-slide images, evaluated with the C-index on public cancer cohorts.</p>
     </div>
     <div class="area-card">
-      <div class="icon">🌾</div>
-      <h4>Precision Breeding</h4>
-      <p>Supporting precision breeding programmes with AI-driven early warnings for disease-prone genotypes.</p>
+      <div class="icon">✅</div>
+      <h4>Rigorous Evaluation</h4>
+      <p>Checking how much reported gains hold up across random seeds, data splits and model-selection choices.</p>
     </div>
   </div>
 
   <div class="keywords-label">Keywords</div>
   <div class="keywords-row">
-    <span class="keyword">Multimodal Transformers</span>
-    <span class="keyword">Computer Vision</span>
-    <span class="keyword">Genomic-Phenotypic Fusion</span>
+    <span class="keyword">Multimodal Deep Learning</span>
+    <span class="keyword">Transformers</span>
+    <span class="keyword">Cross-Attention</span>
+    <span class="keyword">Contrastive Learning</span>
     <span class="keyword">Survival Analysis</span>
-    <span class="keyword">Latent Disease Detection</span>
-    <span class="keyword">Hyperspectral Imaging</span>
-    <span class="keyword">Precision Agriculture</span>
-    <span class="keyword">Transfer Learning</span>
+    <span class="keyword">Biomedical AI</span>
+    <span class="keyword">Model Evaluation</span>
   </div>
 </section>
 
@@ -151,21 +151,21 @@
     <div class="edu-year">2025 – Present</div>
     <div>
       <div class="edu-degree">PhD — Computer Science &amp; Engineering</div>
-      <div class="edu-school">IIT Indore · Roll No. 2501101010</div>
+      <div class="edu-school">IIT Indore · CPI 9.0/10 · Comprehensive examination passed, July 2026</div>
     </div>
   </div>
   <div class="edu-item">
     <div class="edu-year">2018 – 2020</div>
     <div>
       <div class="edu-degree">M.Tech — Computer Science &amp; Engineering</div>
-      <div class="edu-school">RGPV University, Bhopal</div>
+      <div class="edu-school">Oriental Institute of Science &amp; Technology, Bhopal (RGPV) · Thesis: Machine Learning Approaches for Diabetes Risk Prediction</div>
     </div>
   </div>
   <div class="edu-item">
     <div class="edu-year">2008 – 2012</div>
     <div>
       <div class="edu-degree">B.E. — Information Technology</div>
-      <div class="edu-school">RGPV University, Bhopal</div>
+      <div class="edu-school">Oriental Institute of Science &amp; Technology, Bhopal (RGPV)</div>
     </div>
   </div>
 </section>
@@ -180,29 +180,30 @@
     <div class="skills-group-label">Programming</div>
     <div class="skills-row">
       <span class="skill">Python</span>
-      <span class="skill">R</span>
-      <span class="skill">MATLAB</span>
       <span class="skill">C / C++</span>
-      <span class="skill">Java</span>
-      <span class="skill">SQL</span>
     </div>
   </div>
   <div class="skills-group">
     <div class="skills-group-label">Frameworks &amp; Libraries</div>
     <div class="skills-row">
       <span class="skill">PyTorch</span>
-      <span class="skill">TensorFlow</span>
+      <span class="skill">PyTorch Geometric</span>
+      <span class="skill">Hugging Face Transformers</span>
+      <span class="skill">timm</span>
+      <span class="skill">scikit-learn</span>
+      <span class="skill">NumPy</span>
+      <span class="skill">pandas</span>
     </div>
   </div>
   <div class="skills-group">
     <div class="skills-group-label">Tools &amp; Platforms</div>
     <div class="skills-row">
       <span class="skill">Git / GitHub</span>
-      <span class="skill">GCP</span>
-      <span class="skill">Docker / Kubernetes</span>
+      <span class="skill">Linux</span>
+      <span class="skill">conda</span>
+      <span class="skill">Jupyter</span>
+      <span class="skill">Weights &amp; Biases</span>
       <span class="skill">LaTeX</span>
-      <span class="skill">MATLAB</span>
-      <span class="skill">Linux / HPC Clusters</span>
     </div>
   </div>
 </section>
@@ -229,6 +230,21 @@
       <div class="ta-prof">Instructor: Dr. Sasank Mouli</div>
     </div>
   </div>
+  <div class="ta-item">
+    <span class="ta-icon">🗄️</span>
+    <div>
+      <div class="ta-semester">Semester 3 (current)</div>
+      <div class="ta-course">CS 207N — Database and Information Systems</div>
+      <div class="ta-prof">Laboratory instruction and marking</div>
+    </div>
+  </div>
+  <div class="ta-item">
+    <span class="ta-icon">🎓</span>
+    <div>
+      <div class="ta-semester">Before the PhD</div>
+      <div class="ta-course">Assistant Professor, Dept. of CSE, Oriental Institute of Science &amp; Technology (2021); online lecturer in computer science (2021–2024); founder of the YouTube channel Computer Science Explained</div>
+    </div>
+  </div>
 </section>
 
 <!-- ACHIEVEMENTS -->
@@ -240,29 +256,22 @@
   <div class="ach-item">
     <span class="ach-icon">🥇</span>
     <div>
-      <span class="ach-title">GATE CSE 2025 — AIR 2434 (98.6 Percentile)</span>
-      <span class="ach-desc">Graduate Aptitude Test in Engineering — Computer Science &amp; Engineering among ~200,000 candidates. Consistently qualified since 2022 (5 consecutive years), demonstrating sustained academic excellence.</span>
+      <span class="ach-title">GATE CSE 2025 — All India Rank 2,434</span>
+      <span class="ach-desc">Graduate Aptitude Test in Engineering, Computer Science and Information Technology: rank 2,434 among 170,825 candidates (top 1.4%).</span>
     </div>
   </div>
   <div class="ach-item">
     <span class="ach-icon">🏅</span>
     <div>
-      <span class="ach-title">UGC NET 2023 — 99.9 Percentile (188 marks)</span>
-      <span class="ach-desc">UGC National Eligibility Test — Computer Science &amp; Applications. Scored 188/300, qualifying among the top 6% of all candidates nationally. Also eligible for JRF selection (top 0.36% cutoff).</span>
+      <span class="ach-title">UGC-NET December 2023 — 188/300</span>
+      <span class="ach-desc">National Eligibility Test, Computer Science and Applications: 188/300, above the general-category JRF cut-off of 184; qualified for Assistant Professor.</span>
     </div>
   </div>
   <div class="ach-item">
     <span class="ach-icon">🎓</span>
     <div>
-      <span class="ach-title">IIIT Hyderabad PGEE — AIR 303</span>
-      <span class="ach-desc">Qualified for postgraduate entrance at IIIT Hyderabad.</span>
-    </div>
-  </div>
-  <div class="ach-item">
-    <span class="ach-icon">🏆</span>
-    <div>
-      <span class="ach-title">IITI Institute Fellowship</span>
-      <span class="ach-desc">Awarded by IIT Indore for doctoral research.</span>
+      <span class="ach-title">IIIT Hyderabad PGEE 2025 — AIR 303</span>
+      <span class="ach-desc">Postgraduate entrance examination, International Institute of Information Technology Hyderabad.</span>
     </div>
   </div>
 </section>
@@ -274,11 +283,11 @@
   <div class="section-divider"></div>
 
   <div class="contact-grid">
-    <a href="mailto:phd2501101010@iiti.ac.in" class="contact-item">
+    <a href="mailto:avinashkamalbharti@gmail.com" class="contact-item">
       <span class="contact-icon">✉️</span>
       <div>
-        <span class="contact-label">Institute Email</span>
-        <span class="contact-value">phd2501101010@iiti.ac.in</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">avinashkamalbharti@gmail.com</span>
       </div>
     </a>
     <a href="https://www.linkedin.com/in/avinashkamalbharti/" target="_blank" class="contact-item">
@@ -300,6 +309,13 @@
       <div>
         <span class="contact-label">ORCID</span>
         <span class="contact-value">0000-0003-2645-7626</span>
+      </div>
+    </a>
+    <a href="https://github.com/avinashkamalbharti" target="_blank" class="contact-item">
+      <span class="contact-icon">💻</span>
+      <div>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/avinashkamalbharti</span>
       </div>
     </a>
   </div>
